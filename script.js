@@ -1,7 +1,7 @@
 function openSidebar() {
   document.getElementById("overlay").style.visibility = "visible";
   document.getElementById("overlay").style.opacity = "1";
-  document.getElementById("sidebar").style.width = "240px";
+  document.getElementById("sidebar").style.width = "255px";
 }
 
 function closeSidebar() {

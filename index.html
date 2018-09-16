@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BENG 187 - Team 16</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+  </head>
+  
+  <body style="background-color: #000000">
+    <div id="overlay" onclick="closeSidebar()"></div>
+    <div id="sidebar">
+      <div class="top-sidebar">
+        <button class="sidebar-close" onclick="closeSidebar()">☰☰☰☰</button>
+      </div>
+      <div class="sidebar-section">
+        <a href="./" class="selected-button">Home</a>
+        <a href="./about-us/">About Us</a>
+        <a href="./sponsors-and-supporters/">Sponsors & Supporters</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">PROJECT INFO</div>
+        <a href="./problem-statement/">Problem Statement</a>
+        <a href="./overview-of-solution/">Overview of the Solution</a>
+        <a href="./project-management-strategy/">Project Management Strategy</a>
+        <a href="./experience-gained/">Experience Gained</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">IMAGES</div>
+        <a href="./photos/">Photos</a>
+        <a href="./graphics/">Graphics</a>
+        <a href="./technical-drawings/">Technical Drawings</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">FUTURE CONSIDERATIONS</div>
+        <a href="./ethical-considerations/">Ethical Considerations</a>
+        <a href="./global-impact/">Global Impact</a>
+        <a href="./health-and-safety-issues/">Health & Safety Issues</a>
+        <a href="./economics/">Economics</a>
+      </div>
+    </div>
+    <div id="nav-bar" style="background-color: #000000; border-bottom: 1px solid #FFFFFF">
+      <button class="sidebar-open" onclick="openSidebar()" style="background-color: #000000; color: #FFFFFF">☰☰☰☰</button>
+      <a href="./" class="nav-title" style="color: #FFFFFF">"Anti - Adhesion Device" - Team 16</a>
+    </div>
+    <video controls autoplay>
+      <source src="./assets/homepage.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>

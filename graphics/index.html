@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Graphics</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+  </head>
+  
+  <body>
+    <div id="overlay" onclick="closeSidebar()"></div>
+    <div id="sidebar">
+      <div class="top-sidebar">
+        <button class="sidebar-close" onclick="closeSidebar()">☰☰☰☰</button>
+      </div>
+      <div class="sidebar-section">
+        <a href="../" class="home-button">Home</a>
+        <a href="../about-us/">About Us</a>
+        <a href="../sponsors-and-supporters/">Sponsors & Supporters</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">PROJECT INFO</div>
+        <a href="../problem-statement/">Problem Statement</a>
+        <a href="../overview-of-solution/">Overview of the Solution</a>
+        <a href="../project-management-strategy/">Project Management Strategy</a>
+        <a href="../experience-gained/">Experience Gained</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">IMAGES</div>
+        <a href="../photos/">Photos</a>
+        <a href="../graphics/" class="selected-button">Graphics</a>
+        <a href="../technical-drawings/">Technical Drawings</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">FUTURE CONSIDERATIONS</div>
+        <a href="../ethical-considerations/">Ethical Considerations</a>
+        <a href="../global-impact/">Global Impact</a>
+        <a href="../health-and-safety-issues/">Health & Safety Issues</a>
+        <a href="../economics/">Economics</a>
+      </div>
+    </div>
+    <div id="nav-bar">
+      <button class="sidebar-open" onclick="openSidebar()">☰☰☰☰</button>
+      <a href="../" class="nav-title">"Anti - Adhesion Device" - Team 16</a>
+    </div>
+    <div class="container">
+      <div class="image-page-section">
+        <div class="image-page-title">Graphics</div>
+        <div class="image-container">
+          <div class="slideshow">
+            <div class="page-slide">
+              <img src="../assets/graphics/prototype1.png" class="slide-image">
+            </div>
+            <div class="slide-caption">Assembly of Prototype 1 of the Device</div>
+            <div class="page-slide">
+              <img src="../assets/graphics/prototype3.PNG" class="slide-image">
+            </div>
+            <div class="slide-caption">Assembly of Prototype 3 of the Device</div>
+            <div class="page-slide">
+              <img src="../assets/graphics/3bladedc.png" class="slide-image">
+            </div>
+            <div class="slide-caption">Dimensionless Concentration Profile of 3-Blade Mixing Core Configuration</div>
+            <div class="page-slide">
+              <img src="../assets/graphics/4bladedc.png" class="slide-image">
+            </div>
+            <div class="slide-caption">Dimensionless Concentration Profile of 4-Blade Mixing Core Configuration</div>
+            <div class="page-slide">
+              <img src="../assets/graphics/5bladedc.png" class="slide-image">
+            </div>
+            <div class="slide-caption">Dimensionless Concentration Profile of 5-Blade Mixing Core Configuration</div>
+            <div class="page-slide">
+              <img src="../assets/graphics/3bladesvf.png" class="slide-image">
+            </div>
+            <div class="slide-caption">Streamline Velocity Field of 3-Blade Mixing Core Configuration</div>
+            <div class="page-slide">
+              <img src="../assets/graphics/4bladesvf.png" class="slide-image">
+            </div>
+            <div class="slide-caption">Streamline Velocity Field of 4-Blade Mixing Core Configuration</div>
+            <div class="page-slide">
+              <img src="../assets/graphics/5bladesvf.png" class="slide-image">
+            </div>
+            <div class="slide-caption">Streamline Velocity Field of 5-Blade Mixing Core Configuration</div>
+          </div><div class="carousel">
+            <div class="carousel-button" onclick="plusThumb(-1)">
+              <div class="carousel-arrow">&#9650;</div>
+            </div>
+            <img src="../assets/graphics/prototype1.png" class="page-thumbnail" onclick="currentSlide(1)">
+            <img src="../assets/graphics/prototype3.PNG" class="page-thumbnail" onclick="currentSlide(2)">
+            <img src="../assets/graphics/3bladedc.png" class="page-thumbnail" onclick="currentSlide(3)">
+            <img src="../assets/graphics/4bladedc.png" class="page-thumbnail" onclick="currentSlide(4)">
+            <img src="../assets/graphics/5bladedc.png" class="page-thumbnail" onclick="currentSlide(5)">
+            <img src="../assets/graphics/3bladesvf.png" class="page-thumbnail" onclick="currentSlide(6)">
+            <img src="../assets/graphics/4bladesvf.png" class="page-thumbnail" onclick="currentSlide(7)">
+            <img src="../assets/graphics/5bladesvf.png" class="page-thumbnail" onclick="currentSlide(8)">
+            <div class="carousel-button" onclick="plusThumb(1)">
+              <div class="carousel-arrow">&#9660;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

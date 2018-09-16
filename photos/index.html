@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Photos</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+  </head>
+  
+  <body>
+    <div id="overlay" onclick="closeSidebar()"></div>
+    <div id="sidebar">
+      <div class="top-sidebar">
+        <button class="sidebar-close" onclick="closeSidebar()">☰☰☰☰</button>
+      </div>
+      <div class="sidebar-section">
+        <a href="../" class="home-button">Home</a>
+        <a href="../about-us/">About Us</a>
+        <a href="../sponsors-and-supporters/">Sponsors & Supporters</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">PROJECT INFO</div>
+        <a href="../problem-statement/">Problem Statement</a>
+        <a href="../overview-of-solution/">Overview of the Solution</a>
+        <a href="../project-management-strategy/">Project Management Strategy</a>
+        <a href="../experience-gained/">Experience Gained</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">IMAGES</div>
+        <a href="../photos/" class="selected-button">Photos</a>
+        <a href="../graphics/">Graphics</a>
+        <a href="../technical-drawings/">Technical Drawings</a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">FUTURE CONSIDERATIONS</div>
+        <a href="../ethical-considerations/">Ethical Considerations</a>
+        <a href="../global-impact/">Global Impact</a>
+        <a href="../health-and-safety-issues/">Health & Safety Issues</a>
+        <a href="../economics/">Economics</a>
+      </div>
+    </div>
+    <div id="nav-bar">
+      <button class="sidebar-open" onclick="openSidebar()">☰☰☰☰</button>
+      <a href="../" class="nav-title">"Anti - Adhesion Device" - Team 16</a>
+    </div>
+    <div class="container">
+      <div class="image-page-section">
+        <div class="image-page-title">Photos</div>
+        <div class="image-container">
+          <div class="slideshow">
+            <div class="page-slide">
+              <img src="../assets/photos/heartsurgery.JPG" class="slide-image">
+            </div>
+            <div class="slide-caption">Dr. Madani's Heart Surgery - Fall Quarter</div>
+            <div class="page-slide">
+              <img src="../assets/photos/p1tiptopsanded.jpg" class="slide-image">
+            </div>
+            <div class="slide-caption">Sanding of the Device Tip's Top of Prototype 1 of Device - Winter Quarter</div>
+            <div class="page-slide">
+              <img src="../assets/photos/p1disassembled.jpg" class="slide-image">
+            </div>
+            <div class="slide-caption">Disassembled Prototype 1 of Device with Duplicate Parts - Winter Quarter</div>
+            <div class="page-slide">
+              <img src="../assets/photos/p1assembled.jpg" class="slide-image">
+            </div>
+            <div class="slide-caption">Assembled Prototype 1 of Device - Winter Quarter</div>
+            <div class="page-slide">
+              <img src="../assets/photos/p3assembled.jpg" class="slide-image">
+            </div>
+            <div class="slide-caption">Assembled Prototype 3 of Device - Winter Quarter</div>
+            <div class="page-slide">
+              <img src="../assets/photos/p3lab.jpg" class="slide-image">
+            </div>
+            <div class="slide-caption">Testing of Prototype 3 in the Christman Lab - Spring Quarter</div>
+            <div class="page-slide">
+              <img src="../assets/photos/evolutionprinted.jpg" class="slide-image">
+            </div>
+            <div class="slide-caption">Evolution of Printed Replaceable Mixing Tips - Spring Quarter</div>
+          </div><div class="carousel">
+            <div class="carousel-button" onclick="plusThumb(-1)">
+              <div class="carousel-arrow">&#9650;</div>
+            </div>
+            <img src="../assets/photos/heartsurgery.JPG" class="page-thumbnail" onclick="currentSlide(1)">
+            <img src="../assets/photos/p1tiptopsanded.jpg" class="page-thumbnail" onclick="currentSlide(2)">
+            <img src="../assets/photos/p1disassembled.jpg" class="page-thumbnail" onclick="currentSlide(3)">
+            <img src="../assets/photos/p1assembled.jpg" class="page-thumbnail" onclick="currentSlide(4)">
+            <img src="../assets/photos/p3assembled.jpg" class="page-thumbnail" onclick="currentSlide(5)">
+            <img src="../assets/photos/p3lab.jpg" class="page-thumbnail" onclick="currentSlide(6)">
+            <img src="../assets/photos/evolutionprinted.jpg" class="page-thumbnail" onclick="currentSlide(7)">
+            <div class="carousel-button" onclick="plusThumb(1)">
+              <div class="carousel-arrow">&#9660;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
